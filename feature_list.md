@@ -21,6 +21,7 @@
   - Check/update attendance.
   - View past bills/payments.
   - View current expected costs.
+  - View current accrued costs (estimated).
   - Option to leave carpool.
 
 ### UI/UX
