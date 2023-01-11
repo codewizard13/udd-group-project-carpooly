@@ -65,28 +65,9 @@ function reportUserData(usersArr) {
 reportUserData(users)
 
 
-
-
-function printTitleAndYearFancy(moviesArr) {
-  // Print Headers
-  console.log('\nFormatted Nicely:\n')
-  console.log(("Full Name").padEnd(26, ' '), '| ')
-  console.log(('-'.repeat(61)) + '+' + '-'.repeat(14))
-
-
-  moviesArr.forEach((movie, i) => {
-
-    const displayTitle = trunc(movie.Title, 50)
-    const releaseDate = movie['Release Date']
-
-    console.log(displayTitle.padEnd(60, ' '), `| ${releaseDate}`)
-
-  })
-}
-
 function printObjectProperties(obj) {
 
-  const arrayProperties = ['carpoolsOwned', 'carpoolsJoined']
+  const arrayProperties = ['carpoolsOwned', 'carpoolsJoined', 'paymentMethods']
 
   for (const [key, val] of Object.entries(obj)) {
     if (!(arrayProperties.includes(key))) {
