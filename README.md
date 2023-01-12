@@ -138,6 +138,17 @@ We are a small group of self taught developers expanding our skillsets!
 
 Project Link: [https://github.com/codewizard13/udd-group-project-carpooly](https://github.com/codewizard13/udd-group-project-carpooly)
 
+---
+<div align="center">
+  <h4>OUR CONTRIBUTORS:</h4>
+  
+  <a href="https://github.com/codewizard13/udd-group-project-carpooly/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=codewizard13/udd-group-project-carpooly" />
+
+</div>
+
+---
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
