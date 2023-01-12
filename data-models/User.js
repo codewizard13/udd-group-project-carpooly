@@ -48,8 +48,8 @@ class User {
     this.lastName = lastName
     this.screenName = screenName
     this.email = email
-    this.carpoolsOwned = []
-    this.carpoolsJoined = []
+    this.carpoolsOwned = carpoolsOwned
+    this.carpoolsJoined = carpoolsJoined
     this.payMethods = payMethods
   }
   // Define class methods

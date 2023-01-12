@@ -6,7 +6,7 @@ const user1 = new User(
   'Smith',
   'jsmith',
   'jsmith@gmail.com',
-  ['a01', 'b01']
+  ['a01', 'b01'],
   ['a03'],
   ['cc_visa', 'stripe']
 )
@@ -19,7 +19,7 @@ const user2 = new User(
   'Strong',
   'suestrong',
   'suestrong@gmail.com',
-  ['a01', 'b01']
+  ['a01', 'b01'],
   ['a03'],
   ['cc_visa']
 )
@@ -30,7 +30,7 @@ const user3 = new User(
   'Nakamoto',
   'hironak',
   'hiro1969@gmail.com',
-  ['a01', 'b01']
+  ['a01', 'b01'],
   ['a03'],
   ['stripe', 'cash']
 )
@@ -41,7 +41,7 @@ const user4 = new User(
   'Johnson',
   'keishaj77',
   'keishaj77@protonmail.com',
-  ['a01', 'b01']
+  ['a01', 'b01'],
   ['a03'],
   ['cc_visa', 'stripe']
 )
@@ -73,7 +73,10 @@ function printObjectProperties(obj) {
     if (!(arrayProperties.includes(key))) {
       console.log(`${key}: ${val}`)
     } else {
-      console.table([key, val])
+      console.log(`${key}:`)
+      console.table(val)
+      console.log(`length: ${val.length}`)
+
     }
   }
 }
